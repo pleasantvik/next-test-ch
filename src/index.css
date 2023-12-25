@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home {
+  border-bottom-left-radius: 100px;
+  /* font-family: ; */
+}
