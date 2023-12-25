@@ -17,7 +17,7 @@ export default {
         dark: {
           DEFAULT: "#0F1824",
           main: "#4F4F4F",
-          light: "#7F7B86",
+          light: "#34333E",
           muted: "#BBB8BE",
           gray: "#E4E8E2",
         },
