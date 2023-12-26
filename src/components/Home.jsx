@@ -1,7 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import logo from "../assets/img/logo.png";
 import house from "../assets/img/house.png";
+import { useNavigate } from "react-router-dom";
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <section className="grid grid-cols-1 md:grid-cols-[600px_840px]">
       <div className=" ml-[100px] bg-primary h-[812px] md:flex md:flex-col pl-8 pt-44 gap-4 hidden home relative ">
@@ -42,12 +44,18 @@ const Home = () => {
           />
         </div>
         <div className="mt-10 mb-4">
-          <button className="w-[95%] mx-auto flex justify-center bg-[#34333e] py-4 text-white">
+          <button
+            onClick={() => navigate("/main")}
+            className="w-[95%] mx-auto flex justify-center bg-[#34333e] py-4 text-white"
+          >
             Continue
           </button>
         </div>
         <div className="">
-          <button className="w-[95%] mx-auto flex justify-center text-[#34333e] py-4 border-2 border-dark-main">
+          <button
+            onClick={() => navigate("/main")}
+            className="w-[95%] mx-auto flex justify-center text-[#34333e] py-4 border-2 border-dark-main"
+          >
             Have an Account? Login
           </button>
         </div>
