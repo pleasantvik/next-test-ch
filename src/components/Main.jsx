@@ -188,7 +188,7 @@ const Main = () => {
           </div>
         </div>
         <article className=" flex flex-col px-9">
-          <header className="md:hidden flex items-center justify-between pt-12 ">
+          <header className="md:hidden flex items-center justify-between pt-12 mb-8 ">
             <div>
               <img src={arrow} alt="" />
             </div>
