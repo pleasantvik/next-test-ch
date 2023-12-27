@@ -36,7 +36,7 @@ h1 {
 }
 
 .input-2 {
-  border: 1px solid transparent;
+  border: none;
 }
 
 .input:focus {

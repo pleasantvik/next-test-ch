@@ -187,7 +187,7 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <article className=" relative px-9">
+        <article className=" flex flex-col px-9">
           <header className="md:hidden flex items-center justify-between pt-12 ">
             <div>
               <img src={arrow} alt="" />
@@ -221,7 +221,7 @@ const Main = () => {
             <div className="h-8 w-8  px-4 py-2 bg-primary">
               <span>J</span>
             </div>
-            <div className="flex items-center justify-between border-2 border-[#999] rounded-lg w-[60%] py-8 ">
+            <div className="flex items-center justify-between border-2 border-[#999] rounded-lg w-[60%] mb-20 py-8 ">
               <img src={gallery} alt="gallery" />
               <div>
                 <p>images.png</p>
@@ -230,7 +230,7 @@ const Main = () => {
               <img src={tick} alt="tick" />
             </div>
           </section>
-          <section className="absolute bottom-0 w-full left-0 flex items-center justify-between border-2 border-[#999] rounded-lg py-4">
+          <section className="mt-auto w-full   flex items-center justify-between border-2 border-[#999] rounded-lg py-4">
             <img src={cross} alt="" />
             <input type="text" className=" input input-2 w-full" />
             <img src={fly} alt="" />
