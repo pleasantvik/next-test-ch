@@ -1,7 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import logo from "../assets/img/logo.png";
 import house from "../assets/img/house.png";
+import chevron from "../assets/img/downarrow.png";
+import flag from "../assets/img/flag.png";
+
 import { useNavigate } from "react-router-dom";
+
 const Home = () => {
   const navigate = useNavigate();
   return (
@@ -27,7 +31,9 @@ const Home = () => {
         </div>
 
         <h2 className="text-2xl font-semibold md:hidden">Let's get Started</h2>
-        <h2 className="hidden md:block">Provide your phone number</h2>
+        <h2 className="hidden md:block font-bold text-2xl">
+          Provide your phone number
+        </h2>
         <p className="mb-8 px-14">
           <small className="text-lg text-[#585858] poppins">
             Kindly use an active WhatsApp number, and we'll send a confirmation
@@ -36,14 +42,19 @@ const Home = () => {
         </p>
 
         <div className="w-[80%] mx-auto flex items-center justify-center gap-2">
-          <select name="" className="text-center rounded-md " id="">
+          {/* <select name="" className="text-center rounded-md " id="">
             <option
               className="flex items-center justify-center px-4"
               value="+234"
             >
               +234
             </option>
-          </select>
+          </select> */}
+          <div className="flex items-center select rounded-md  justify-center gap-2">
+            <img className="w-full" src={flag} alt="" />
+            <span>+356</span>
+            <img className="w-full" src={chevron} alt="" />
+          </div>
           <input
             type="text"
             // className="border-2 border-dark rounded-lg w-4/6"
