@@ -221,7 +221,7 @@ const Main = () => {
             <div className="h-8 w-8  px-4 py-2 bg-primary">
               <span>J</span>
             </div>
-            <div className="flex items-center justify-between border-2 border-[#999] rounded-lg w-[60%] mb-20 py-8 px-8 ">
+            <div className="flex items-center justify-between border-2 border-[#999] rounded-lg w-[80%] mb-20 py-8 px-4 ">
               <img src={gallery} alt="gallery" />
               <div>
                 <p>images.png</p>
