@@ -10,14 +10,14 @@ const Home = () => {
   const navigate = useNavigate();
   return (
     <section className="container mx-auto grid grid-cols-1 md:grid-cols-2">
-      <div className="ml-[100px] bg-primary h-[812px] md:flex md:flex-col pl-8 pt-44 gap-4 hidden home relative">
+      <div className=" bg-primary h-[812px] md:flex md:flex-col px-4  md:px-8 pt-44 gap-4 hidden home relative">
         <div>
           <img src={logo} alt="Logo" />
         </div>
-        <h1 className="text-dark font-bold break-words text-3xl leading-10">
+        <h1 className="text-dark font-bold break-words text-lg sm:text-2xl md:text-3xl leading-10">
           Revolutionize your Customer Service Game
         </h1>
-        <p className="text-dark-main">
+        <p className="text-dark-main text-sm">
           Connect authentically with customers through natural, flowing
           conversations.
         </p>
@@ -30,11 +30,13 @@ const Home = () => {
           <img src={logo} alt="Logo" className="w-[20%]" />
         </div>
 
-        <h2 className="text-2xl font-semibold md:hidden">Let's get Started</h2>
-        <h2 className="hidden md:block font-bold text-2xl">
+        <h2 className="md:text-2xl text-lg font-semibold md:hidden">
+          Let's get Started
+        </h2>
+        <h2 className="hidden md:block font-bold text-lg md:text-2xl">
           Provide your phone number
         </h2>
-        <p className="mb-8 px-14">
+        <p className="mb-8 px-8 lg:px-14">
           <small className="text-lg text-[#585858] poppins">
             Kindly use an active WhatsApp number, and we'll send a confirmation
             message to the provided number.
