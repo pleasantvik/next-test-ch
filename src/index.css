@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Nordique;
+  src: url();
+}
+
 .home {
   border-bottom-left-radius: 100px;
   /* font-family: ; */
+}
+
+h1 {
+  font-family: Nordique;
 }

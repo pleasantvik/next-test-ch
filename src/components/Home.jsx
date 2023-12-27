@@ -5,8 +5,8 @@ import { useNavigate } from "react-router-dom";
 const Home = () => {
   const navigate = useNavigate();
   return (
-    <section className="grid grid-cols-1 md:grid-cols-[600px_840px]">
-      <div className=" ml-[100px] bg-primary h-[812px] md:flex md:flex-col pl-8 pt-44 gap-4 hidden home relative ">
+    <section className="container mx-auto grid grid-cols-1 md:grid-cols-2">
+      <div className=" ml-[100px] bg-primary h-[812px] md:flex md:flex-col pl-8 pt-44 gap-4 hidden home relative">
         <div>
           <img src={logo} alt="Logo" />
         </div>
@@ -21,7 +21,7 @@ const Home = () => {
           <img src={house} alt="house" className="w-full object-cover" />
         </div>
       </div>
-      <div className="h-[950px] flex flex-col pt-64 text-center pl-10 w-[80%] mx-auto ">
+      <div className="h-[950px] flex flex-col pt-20 md:pt-64 text-center pl-10 w-[80%] mx-auto ">
         <div className="flex justify-center md:hidden">
           <img src={logo} alt="Logo" />
         </div>

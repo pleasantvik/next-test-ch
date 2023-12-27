@@ -13,7 +13,7 @@ import { useNavigate } from "react-router-dom";
 const Main = () => {
   const navigate = useNavigate();
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2">
+    <section className="container mx-auto grid grid-cols-1 md:grid-cols-2">
       <div className="px-9">
         <header className="flex items-center justify-between pt-12 ">
           <div onClick={() => navigate("/")}>
