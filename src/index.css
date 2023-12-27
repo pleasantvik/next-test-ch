@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  font-size: 62.5%;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -60,5 +64,9 @@ hr {
 @media (max-width: 768px) {
   .br-left {
     border-right: none;
+  }
+
+  html {
+    font-size: 50%;
   }
 }
