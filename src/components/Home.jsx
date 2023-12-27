@@ -35,7 +35,7 @@ const Home = () => {
           </small>
         </p>
 
-        <div className="w-full flex items-center justify-center gap-2">
+        <div className="w-[80%] mx-auto flex items-center justify-center gap-2">
           <select name="" className="text-center rounded-md " id="">
             <option
               className="flex items-center justify-center px-4"
@@ -48,7 +48,7 @@ const Home = () => {
             type="text"
             // className="border-2 border-dark rounded-lg w-4/6"
             // className=" w-full placeholder:text-slate-400 h-[54px]  rounded-md border-2 focus:border-2 bg-transparent px-4 text-center focus:!border-primary focus:!outline-primary focus:!ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-            className="w-4/6 rounded-md input"
+            className="w-full rounded-md input"
             placeholder="Phone Number"
           />
         </div>
