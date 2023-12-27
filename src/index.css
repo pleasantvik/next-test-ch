@@ -35,6 +35,30 @@ h1 {
   transition: all 0.3s;
 }
 
+.input-2 {
+  border: 1px solid transparent;
+}
+
 .input:focus {
   border: 2px solid #34333e;
+}
+
+.btn--plain {
+  border: 1px solid #585858;
+}
+
+hr {
+  width: 100%;
+  background: #e8e8e8;
+  height: 2px;
+}
+
+.br-left {
+  border-right: 2px solid #e8e8e8;
+}
+
+@media (max-width: 768px) {
+  .br-left {
+    border-right: none;
+  }
 }
