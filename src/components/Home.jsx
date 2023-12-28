@@ -25,7 +25,7 @@ const Home = () => {
           <img src={house} alt="house" className="w-full object-cover" />
         </div>
       </div>
-      <div className="h-[950px] flex flex-col pt-20 md:pt-64 text-center w-[90%]  md:w-[80%] mx-auto ">
+      <div className="h-[950px] flex flex-col pt-20 md:pt-64 text-center   md:w-[80%] mx-auto ">
         <div className="flex justify-center md:hidden mb-10">
           <img src={logo} alt="Logo" className="w-[20%]" />
         </div>
@@ -36,7 +36,7 @@ const Home = () => {
         <h2 className="hidden md:block font-bold text-lg md:text-2xl">
           Provide your phone number
         </h2>
-        <p className="mb-8 px-4 lg:px-14">
+        <p className="mb-8 px-4 lg:px-14 ">
           <small className="text-lg text-[#585858] poppins">
             Kindly use an active WhatsApp number, and we'll send a confirmation
             message to the provided number.
