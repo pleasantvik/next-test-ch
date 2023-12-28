@@ -25,7 +25,7 @@ const Home = () => {
           <img src={house} alt="house" className="w-full object-cover" />
         </div>
       </div>
-      <div className="h-[950px] flex flex-col pt-20 md:pt-64 text-center  w-[80%] mx-auto ">
+      <div className="h-[950px] flex flex-col pt-20 md:pt-64 text-center  md:w-[80%] mx-auto ">
         <div className="flex justify-center md:hidden mb-10">
           <img src={logo} alt="Logo" className="w-[20%]" />
         </div>
