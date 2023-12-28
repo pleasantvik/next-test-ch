@@ -36,7 +36,7 @@ const Home = () => {
         <h2 className="hidden md:block font-bold text-lg md:text-2xl">
           Provide your phone number
         </h2>
-        <p className="mb-8 px-8 lg:px-14">
+        <p className="mb-8 px-4 lg:px-14">
           <small className="text-lg text-[#585858] poppins">
             Kindly use an active WhatsApp number, and we'll send a confirmation
             message to the provided number.
@@ -76,7 +76,7 @@ const Home = () => {
         <div className="">
           <button
             onClick={() => navigate("/main")}
-            className="w-[80%] mx-auto flex justify-center text-[#34333e] py-4 border-2 border-dark-main"
+            className="w-[80%] mx-auto flex  justify-center text-[#34333e] py-4 border-2 border-dark-main"
           >
             Have an Account? Login
           </button>

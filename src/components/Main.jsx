@@ -212,13 +212,13 @@ const Main = () => {
             </p>
           </section>
           <section className="grid grid-cols-[48px_1fr] gap-2 grid-rows-2 bg-[#f9f9f9] h-20 mt-4">
-            <div className="h-8 w-8  px-4 py-2 bg-primary">
-              <span>J</span>
+            <div className="h-8 w-8  px-4 py-2 bg-primary flex items-center justify-center">
+              <span className="">J</span>
             </div>
             <p>Pictures of Dogs laughing, with a short back story</p>
           </section>
           <section className="md:hidden grid grid-cols-[48px_1fr] gap-2 grid-rows-2 bg-[#f9f9f9] h-20">
-            <div className="h-8 w-8  px-4 py-2 bg-primary">
+            <div className="h-8 w-8  px-4 py-2 bg-primary flex items-center justify-center">
               <span>J</span>
             </div>
             <div className="flex items-center justify-between border-2 border-[#999] rounded-lg w-[80%] mb-20 py-8 px-4 ">
