@@ -43,7 +43,7 @@ const Home = () => {
           </small>
         </p>
 
-        <div className="w-[80%] mx-auto flex items-center justify-center gap-2">
+        <div className="w-[90%] md:w-[80%] mx-auto flex items-center justify-center gap-2">
           {/* <select name="" className="text-center rounded-md " id="">
             <option
               className="flex items-center justify-center px-4"
@@ -68,7 +68,7 @@ const Home = () => {
         <div className="mt-10 mb-4">
           <button
             onClick={() => navigate("/main")}
-            className="w-[80%] mx-auto flex justify-center bg-[#34333e] py-4 text-white"
+            className="w-[90%] md:w-[80%] mx-auto flex justify-center bg-[#34333e] py-4 text-white"
           >
             Continue
           </button>
@@ -76,7 +76,7 @@ const Home = () => {
         <div className="">
           <button
             onClick={() => navigate("/main")}
-            className="w-[80%] mx-auto flex  justify-center text-[#34333e] py-4 border-2 border-dark-main"
+            className="w-[90%] md:w-[80%] mx-auto flex  justify-center text-[#34333e] py-4 border-2 border-dark-main"
           >
             Have an Account? Login
           </button>
